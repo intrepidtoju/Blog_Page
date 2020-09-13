@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <title>Blog Page</title>
+</head>
+<body>
+ <nav>
+     <div class="logo">
+         <img src="https://randomuser.me/api/portraits/men/50.jpg" alt="" srcset="">
+     </div>
+     <ul>
+         <li><a href="#">Home</a></li>
+         <li><a href="#">Portfolio</a></li>
+         <li><a href="#">Blog</a></li>
+         <li><a href="#">Contact Me</a></li>
+     </ul>
+ </nav>
+ <header>
+     <button id="toggle" class="toggle">
+         <i class="fa fa-bars fa-2x"></i>
+     </button>
+     <h1>My Blog Page</h1>
+     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod, laboriosam.</p>
+     <button class="cta-btn" id="open">Sign Up</button>
+ </header>
+ <div class="container">
+     <h2>What is this landing page about?</h2>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, nihil. Cumque assumenda praesentium, enim, officia sunt molestiae fugit voluptatibus ex sapiente, recusandae sint laudantium aspernatur officiis obcaecati. Eveniet, ad dicta!</p>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, debitis sunt consequuntur placeat rerum sapiente animi perferendis in autem dolor?</p>
+
+
+     <h2>Tell Me More</h2>
+     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid fugit cupiditate quia quos est id reiciendis voluptatibus numquam! Nisi molestias consequuntur soluta recusandae deserunt nostrum adipisci nesciunt quae reprehenderit similique vitae incidunt repellendus, eveniet iste rem quis a beatae! Inventore.</p>
+
+     <h2>Benefits</h2>
+     <ul>
+         <li>Benefit 1</li>
+         <li>Benefit 2</li>
+         <li>Benefit 3</li>
+     </ul>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quo, soluta error dignissimos quibusdam suscipit atque tempore sequi illum numquam aut eligendi expedita nemo neque vel reprehenderit optio praesentium, molestiae commodi accusantium sunt minima sit! Quaerat exercitationem tempore dolorem deserunt nobis perferendis non dolor, distinctio est vel, asperiores vitae consequuntur id labore minima quibusdam similique eaque ullam debitis maiores itaque. Porro totam commodi impedit vel libero ad odit aspernatur architecto!</p>
+
+ </div>
+
+ <div class="modal-container" id="modal">
+     <div class="modal">
+         <button class="close-btn" id="close">
+             <i class="fa fa-times"></i>
+         </button>
+         <div class="modal-header">
+             <h3>Sign Up</h3>
+         </div>
+         <div class="modal-content">
+             <p>Register with us to get offers, support and more.</p>
+             <form  class="modal-form">
+                 <div>
+                     <label for="name">Name</label>
+                     <input type="text" id="name" class="form-input" placeholder="Enter Name">
+                 </div>
+                 <div>
+                     <label for="email">Email</label>
+                     <input type="email" id="email" class="form-input" placeholder="Enter Email">
+                 </div>
+                 <div>
+                     <label for="password">Password</label>
+                     <input type="password" id="password" class="form-input" placeholder="Enter Password">
+                 </div>
+                 <div>
+                     <label for="password">Confirm Password</label>
+                     <input type="password2" id="password2"  class="form-input" placeholder="Confirm password ">
+                 </div>
+                 <input type="submit" value="Submit" class="submit-btn">
+             </form>
+         </div>
+     </div>
+ </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
